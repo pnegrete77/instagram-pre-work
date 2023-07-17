@@ -1,9 +1,9 @@
 .gif-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  display: flex;
+  justify-content: space-between; /* Alteração: espaçamento entre os contêineres */
+  align-items: center;
+  height: 100vh;
+}
   
   .gif {
     position: relative;
