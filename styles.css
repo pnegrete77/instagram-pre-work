@@ -7,12 +7,12 @@ body {
   padding: 0;
 }
 
-.gif-container {
+gif-container {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  margin: 10px;
-  text-align: center;
+  height: 100vh;
+  margin: 5px 0; /* Altere os valores das margens superior e inferior conforme necessário */
 }
 
 .gif {
