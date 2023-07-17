@@ -1,6 +1,6 @@
 body {
   display: flex;
-  justify-content: center; /* Centraliza os GIFs horizontalmente */
+  justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -9,9 +9,9 @@ body {
 
 .gif-container {
   display: flex;
-  justify-content: center; /* Centraliza os GIFs verticalmente */
+  justify-content: center;
   align-items: center;
-  margin: 10px; /* Adiciona um espaçamento entre os GIFs */
+  margin: 10px;
 }
 
 .gif {
