@@ -1,8 +1,13 @@
-.gif-container {
+gif-container {
   display: flex;
-  justify-content: space-between; /* Alteração: espaçamento entre os contêineres */
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
+  margin: 5px 0; /* Altere os valores das margens superior e inferior conforme necessário */
+}
+
+.gif {
+  margin-right: 10px;
 }
   
   .gif {
