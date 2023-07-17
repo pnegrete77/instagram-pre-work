@@ -9,7 +9,7 @@ body {
 
 .gif-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Modificação: altera a direção para coluna */
   align-items: center;
   margin: 10px;
 }
