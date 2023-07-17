@@ -1,8 +1,17 @@
-.gif-container {
+body {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Centraliza os GIFs horizontalmente */
   align-items: center;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center; /* Centraliza os GIFs verticalmente */
+  align-items: center;
+  margin: 10px; /* Adiciona um espaçamento entre os GIFs */
 }
 
 .gif {
@@ -12,7 +21,7 @@
   background-color: black;
   overflow: hidden;
   cursor: pointer;
-  border: 1px solid #000; /* Adiciona uma borda fina ao redor dos GIFs */
+  border: 1px solid #000;
 }
 
 .header,
@@ -22,12 +31,9 @@
   height: 40px;
   display: flex;
   align-items: center;
-  padding: 0 10px;
-  border: 1px solid #000; /* Adiciona uma borda fina ao redor das headers e footers */
-}
-
-.header {
   justify-content: space-between;
+  padding: 0 10px;
+  border: 1px solid #000;
 }
 
 .gif-name {
@@ -39,7 +45,7 @@
 }
 
 .footer {
-  margin-top: 10px; /* Adiciona um espaçamento superior para separar do conteúdo acima */
+  margin-top: 10px;
 }
 
 img {
