@@ -1,19 +1,13 @@
-body {
+.gif-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  text-align: center;
 }
 
-gif-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
-  margin: 5px 0; /* Altere os valores das margens superior e inferior conforme necessário */
-}
+.gif {
+  margin-right: 10px;
 
 .gif {
   position: relative;
@@ -32,9 +26,12 @@ gif-container {
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0 10px;
   border: 1px solid #000;
+}
+
+.header {
+  justify-content: space-between;
 }
 
 .gif-name {
